@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Links</title>
+    <style>
+        /* --- Basic Page Styles --- */
+        html, body {
+            height: 100%;
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            background-color: #f4f7f6; /* A very light grey background */
+        }
+
+        /* --- Centering Container --- */
+        .container {
+            display: flex;
+            flex-direction: column; /* Stack links vertically */
+            justify-content: center; /* Center vertically */
+            align-items: center;     /* Center horizontally */
+            height: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        /* --- Link Styles --- */
+        .link-button {
+            display: block;
+            width: 90%;
+            max-width: 400px; /* Max width for larger screens */
+            padding: 20px 25px;
+            margin: 15px 0;
+            background-color: #ffffff; /* White background for the buttons */
+            color: #0d1117; /* Dark text color */
+            text-align: center;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border: 1px solid #d0d7de; /* Light grey border */
+            border-radius: 8px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        /* --- Hover Effect --- */
+        .link-button:hover {
+            transform: translateY(-3px); /* Slight lift on hover */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Soft shadow on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Main link to the Course Schedule -->
+        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSgVKeiDNiU7qSqlv9F3ng7swhkuBwp6d15DvUR21Kdv2a-hzzES4NbuCLJu0IitGPMPwpCbOoaXDwQ/pubhtml" class="link-button" target="_blank" rel="noopener noreferrer">
+            Course Schedule
+        </a>
+        
+        <!-- Main link to the Assessments Description -->
+        <a href="https://docs.google.com/document/d/e/2PACX-1vRrtiYJrBtvWCXnpq2iNGl25HRiVnL_-Yu495J4XTJWZTNZhDF1bLYbMgg1oscv97ZsgGFFrUo5A0xA/pub" class="link-button" target="_blank" rel="noopener noreferrer">
+            Assessments Description
+        </a>
+    </div>
+</body>
+</html>
